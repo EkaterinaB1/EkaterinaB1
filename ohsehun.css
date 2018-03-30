@@ -1,0 +1,29 @@
+﻿.carousel {
+  height: 800px !important;
+}
+.carousel-inner img {
+  height: 1000px !important;
+  margin: 0 auto;
+}
+.carousel-indicators li {
+  border-color: #000;
+}
+.carousel-indicators .active {
+  background-color: #000;
+}
+.carousel {
+  height: 900px !important;
+  overflow: hidden;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner img {
+  left: 50%;
+  max-width: 800px;
+  min-height: 800px;
+  
+  position: absolute;
+  top: 500px;
+  transform: translate(-50%,-50%);
+}
